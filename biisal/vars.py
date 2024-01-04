@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
-bisal_channel = "https://telegram.me/bisal_files"
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+bot_name = "Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
+bisal_channel = "https://telegram.me/EliteCraft_Studios"
+bisal_grp = "https://t.me/movie_request_zone5"
 
 class Var(object):
     MULTI_CLIENT = False
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', ''))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'bisal_files')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'EliteCraft_Studios')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     
